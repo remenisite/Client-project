@@ -1,7 +1,7 @@
 import serImg1 from "../../assets/service1.png";
 import service2 from "../../assets/Service2.png"
 
-import serImg3 from "../../assets/service3.png";
+import serImg3 from "../../assets/Service3.png";
 
 const ServiceFeatures = () => {
   return (
