@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@utility container {
+  margin-inline: auto;
+
+}
+
+
+.container{
+  width: 1170px;
+
+}
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
