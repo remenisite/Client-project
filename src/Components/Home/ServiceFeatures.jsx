@@ -1,5 +1,6 @@
 import serImg1 from "../../assets/service1.png";
-import serImg2 from "../../assets/service2.png";
+import service2 from '../../assets/service2.png';
+
 import serImg3 from "../../assets/service3.png";
 
 const ServiceFeatures = () => {
@@ -20,7 +21,7 @@ const ServiceFeatures = () => {
 
       {/* Feature 2 */}
       <div className="flex flex-col items-center gap-4">
-        <img src={serImg2} alt="service" />
+        <img src={service2} alt="service" />
 
         <div>
           <h3 className="text-[20px] font-semibold font-poppins text-black">
