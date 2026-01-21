@@ -2,7 +2,7 @@ import jbl_img from "../../assets/jbl_img.png";
 
 const Categories = () => {
   return (
-    <div className="bg-black text-white py-[70px] px-[50px] ">
+    <div className="bg-black text-white py-[70px] px-[50px] mt-[140px] ">
       <div className="flex justify-between items-center">
         <div>
           <h3 className="text-[16px] font-semibold font-poppins text-[#00FF66]">
