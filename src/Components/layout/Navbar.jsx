@@ -3,7 +3,7 @@ import { IoCartOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router";
 import logo from "../../../src/assets/Logo.png";
-import Cart from "../../Pages/Cart";
+
 
 
 const Navbar = () => {
@@ -24,7 +24,7 @@ const Navbar = () => {
               <ul className="flex items-center gap-[48px]">
                 <li className=" hover:border-b-2">
                   <Link
-                    to={"/checkout"}
+                    to={"/"}
                     className="text-[16px] font-normal font-poppins text-black"
                   >
                     Home
@@ -70,7 +70,7 @@ const Navbar = () => {
                 <IoMdHeartEmpty />
               </div>
               <div className="text-[32px] text-black cursor-pointer hover:text-[#989898] hover:scale-110 duration-200 relative">
-           <a a href="/cart"><IoCartOutline /></a>
+           <a  href="/Cart"><IoCartOutline /></a>
 
               </div>
             </div>
