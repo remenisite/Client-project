@@ -1,5 +1,10 @@
 import { FaArrowRight } from "react-icons/fa";
 
+import arivalImg from '../../assets/arivalImg1.png'
+import arivalImg2 from '../../assets/arivalImg2.png'
+import arivalImg3 from '../../assets/arivalImg3.png'
+import arivalImg4 from '../../assets/arivalImg4.png'
+
 const NewArrival = () => {
   return (
     <div className="w-full bg-white py-10">
@@ -9,7 +14,7 @@ const NewArrival = () => {
         {/* Left Large Card */}
         <div className="col-span-1 row-span-2 bg-black text-white relative overflow-hidden">
           <img
-            src="https://i.imgur.com/ZQZQZQZ.png"
+            src={arivalImg}
             alt="Playstation"
             className="w-full h-full object-cover opacity-90"
           />
@@ -27,7 +32,7 @@ const NewArrival = () => {
         {/* Women Collection */}
         <div className="col-span-2 bg-black text-white relative overflow-hidden h-[240px]">
           <img
-            src="https://i.imgur.com/qIufhof.png"
+            src={arivalImg2}
             alt="Women Collection"
             className="w-full h-full object-cover opacity-90"
           />
@@ -45,7 +50,7 @@ const NewArrival = () => {
         {/* Speakers */}
         <div className="bg-black text-white relative overflow-hidden h-[240px]">
           <img
-            src="https://i.imgur.com/8QZQZQZ.png"
+            src={arivalImg3}
             alt="Speakers"
             className="w-full h-full object-cover opacity-90"
           />
@@ -63,7 +68,7 @@ const NewArrival = () => {
         {/* Perfume */}
         <div className="bg-black text-white relative overflow-hidden h-[240px]">
           <img
-            src="https://i.imgur.com/3ZQZQZQ.png"
+            src={arivalImg4}
             alt="Perfume"
             className="w-full h-full object-cover opacity-90"
           />
