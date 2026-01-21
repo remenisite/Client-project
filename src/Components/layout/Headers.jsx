@@ -5,8 +5,8 @@ import { Link } from "react-router";
 const Headers = () => {
   return (
     <>
-      <div className="bg-black ">
-        <div className=" flex items-center justify-between">
+      <div className="bg-black  ">
+        <div className="container flex items-center justify-center py-[15px] gap-[231px]">
           <div className="flex items-center gap-[8px]">
             <p className="text-[14px] font-poppins text-white">
               Summer Sale For All Swim Suits And Free Express Delivery - OFF
