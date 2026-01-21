@@ -1,14 +1,15 @@
-import React from "react";
-import CommonHead from "../Common/CommonHead";
-import ProductCard from "./product/ProductCard";
+import React from 'react'
 import productImg from "../../assets/productImg.png";
+import CommonHead from '../Common/CommonHead';
+import ProductCard from './product/ProductCard';
 
-const AllProduct = () => {
+const BestSelling = () => {
   return (
     <>
-      <div className=" pt-[154px] pb-[60px]">
+    
+      <div className=" pt-[154px] ">
         <div>
-          <CommonHead h2={"Today’s"} hp={"Flash Sales"} />
+          <CommonHead h2={"This Month"} hp={"Best Selling Products"} />
         </div>
 
         <div className="grid grid-cols-4 gap-[30px]">
@@ -49,17 +50,11 @@ const AllProduct = () => {
             reviews="75"
           />
         </div>
-        <div className="text-center">
-          <button
-            type="button"
-            className="w-[234px] bg-[#DB4444] text-[16px]  mt-[40px] mb-[16px] font-medium font-poppins text-white py-[16px] rounded-md hover:bg-red-600 transition"
-          >
-            View All Products
-          </button>
-        </div>
+ 
       </div>
+    
     </>
-  );
-};
+  )
+}
 
-export default AllProduct;
+export default BestSelling
