@@ -49,8 +49,9 @@ const AllProduct = () => {
             reviews="75"
           />
         </div>
-        <div className="text-center">
-          <a href="/seeAll"
+        <div className="text-center mt-[37px]">
+          <a
+            href="/seeAll"
             type="button"
             className="w-[234px] bg-[#DB4444] text-[16px]  mt-[40px] mb-[16px] font-medium font-poppins text-white py-[16px] rounded-md hover:bg-red-600 transition"
           >

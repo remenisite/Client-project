@@ -36,9 +36,9 @@ const ProductCard = ({
       </div>
 
       {/* Add To Cart */}
-      <button className="absolute bottom-24 left-0 w-full bg-black text-white py-3 text-sm font-medium opacity-0 group-hover:opacity-100 transition">
+      <a href="/cart" className="absolute bottom-24 left-0 w-full text-center bg-black text-white py-3 text-sm font-medium opacity-0 group-hover:opacity-100 transition">
         Add To Cart
-      </button>
+      </a>
 
       {/* Content */}
       <div className="p-4">
