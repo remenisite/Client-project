@@ -33,7 +33,7 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 sm:py-12">
+    <div  data-aos="fade-up" className="min-h-screen bg-gray-50 py-8 sm:py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Our Story Section */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 mb-12 sm:mb-16 lg:mb-20">

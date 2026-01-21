@@ -38,26 +38,27 @@ const CategorySlider = () => {
 
   return (
     <>
-    
-    <div className=" pt-[80px] pb-[70px] border-t border-b">
-
-    <CommonHead h2={'Categories'} hp={'Browse By Category'} />
-    <div className="relative ]">
-      <Slider {...settings}>
-        {categories.map((item) => (
-            <div key={item.id} className="px-3">
-            <div
-              className={`h-36 border rounded-md flex flex-col items-center justify-center gap-3 cursor-pointer transition-all duration-300 hover:scale-105 hover:bg-[#DB4444] hover:text-white `}
-              >
-              {item.icon}
-              <span className="text-sm font-medium">{item.name}</span>
-            </div>
-          </div>
-        ))}
-      </Slider>
-    </div>
+      <div
+        data-aos="fade-up"
+        className=" pt-[80px] pb-[70px] border-t border-b"
+      >
+        <CommonHead h2={"Categories"} hp={"Browse By Category"} />
+        <div className="relative ]">
+          <Slider {...settings}>
+            {categories.map((item) => (
+              <div key={item.id} className="px-3">
+                <div
+                  className={`h-36 border rounded-md flex flex-col items-center justify-center gap-3 cursor-pointer transition-all duration-300 hover:scale-105 hover:bg-[#DB4444] hover:text-white `}
+                >
+                  {item.icon}
+                  <span className="text-sm font-medium">{item.name}</span>
+                </div>
+              </div>
+            ))}
+          </Slider>
         </div>
-        </>
+      </div>
+    </>
   );
 };
 

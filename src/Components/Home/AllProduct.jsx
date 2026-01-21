@@ -6,7 +6,7 @@ import productImg from "../../assets/productImg.png";
 const AllProduct = () => {
   return (
     <>
-      <div className=" pt-[154px] pb-[60px]">
+      <div  data-aos="fade-up" className=" pt-[154px] pb-[60px]">
         <div>
           <CommonHead h2={"Today’s"} hp={"Flash Sales"} />
         </div>
@@ -49,11 +49,11 @@ const AllProduct = () => {
             reviews="75"
           />
         </div>
-        <div className="text-center mt-[37px]">
+        <div className=" text-center mt-[37px]">
           <a
             href="/seeAll"
             type="button"
-            className="w-[234px] bg-[#DB4444] text-[16px]  mt-[40px] mb-[16px] font-medium font-poppins text-white py-[16px] rounded-md hover:bg-red-600 transition"
+            className="p-[15px] bg-[#DB4444] text-[16px]  mt-[40px] mb-[16px] font-medium font-poppins text-white py-[16px] rounded-md hover:bg-red-600 transition"
           >
             View All Products
           </a>

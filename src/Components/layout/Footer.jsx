@@ -10,7 +10,7 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white px-6 py-10 md:px-20">
+    <footer  data-aos="fade-up" className="bg-black text-white px-6 py-10 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
         {/* Exclusive - Subscribe */}
         <div>

@@ -7,7 +7,7 @@ const BestSelling = () => {
   return (
     <>
     
-      <div className=" pt-[154px] ">
+      <div  data-aos="fade-up" className=" pt-[154px] ">
         <div>
           <CommonHead h2={"This Month"} hp={"Best Selling Products"} />
         </div>

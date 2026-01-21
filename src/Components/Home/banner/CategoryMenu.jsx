@@ -1,4 +1,7 @@
-import { FaChevronRight } from 'react-icons/fa';
+import { useEffect } from "react";
+import { FaChevronRight } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const categories = [
   { name: "Woman’s Fashion", hasSub: true },
@@ -13,9 +16,16 @@ const categories = [
 ];
 
 const CategoryMenu = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <div className="w-64 bg-white shadow-md p-4">
-      <ul className="space-y-3">
+      <ul data-aos="fade-up" className="space-y-3">
         {categories.map((cat, index) => (
           <li
             key={index}

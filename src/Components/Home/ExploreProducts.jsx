@@ -6,7 +6,7 @@ import productImg from "../../assets/productImg.png";
 const ExploreProducts = () => {
   return (
     <>
-     <div className=" pt-[154px] ">
+     <div  data-aos="fade-up" className=" pt-[154px] ">
         <div>
           <CommonHead h2={"Our Products"} hp={"Explore Our Products"} />
         </div>

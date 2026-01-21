@@ -6,7 +6,7 @@ import CartItemRow from "../Components/cart/CartItemRow";
 
 const Cart = () => {
   return (
-    <div className="pb-[140px]">
+    <div  data-aos="fade-up" className="pb-[140px]">
       <div className="container">
         <Breadcrumb data={"Cart"} />
         <table className="w-full text-left border-collapse mt-[80px] ">

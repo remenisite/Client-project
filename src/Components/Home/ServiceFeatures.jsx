@@ -5,7 +5,7 @@ import serImg3 from "../../assets/Service3.png";
 
 const ServiceFeatures = () => {
   return (
-    <div className="flex items-center justify-between my-[140px]">
+    <div  data-aos="fade-up" className="flex items-center justify-between my-[140px]">
       {/* Feature 1 */}
       <div className="flex flex-col items-center gap-4">
         <img src={serImg1} alt="service" />

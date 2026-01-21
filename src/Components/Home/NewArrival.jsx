@@ -10,7 +10,7 @@ import CommonHead from "../Common/CommonHead";
 const NewArrival = () => {
   return (
     <>
-      <div className="mt-[168px]">
+      <div  data-aos="fade-up" className="mt-[168px]">
         <CommonHead h2={"Featured"} hp={"New Arrival"} />
         <div className="grid grid-cols-2 gap-[30px] mt-[60px]">
           <div>

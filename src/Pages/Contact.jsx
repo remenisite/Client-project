@@ -4,7 +4,7 @@ import Breadcrumb from "../Components/Common/Breadcrumb";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-8 sm:py-12">
+    <div  data-aos="fade-up" className="min-h-screen bg-gray-50 py-8 sm:py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
               <Breadcrumb data={'Cantact'} />
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">

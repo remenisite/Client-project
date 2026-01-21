@@ -1,8 +1,5 @@
 import React from "react";
-
-import Category from '../Components/SeeAllProduct/Category'
-
-
+import Category from "../Components/SeeAllProduct/Category";
 import productImg from "../assets/productImg.png";
 import Breadcrumb from "../Components/Common/Breadcrumb";
 import ProductCard from "../Components/Home/product/ProductCard";
@@ -10,7 +7,7 @@ import ShowItemsSelector from "../Components/SeeAllProduct/ShowItemsSelector";
 
 const SeeAllProduct = () => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <div className="container">
         <Breadcrumb data={"shop"} />
         <div className="flex justify-between mt-[50px] pb-[104px]">
