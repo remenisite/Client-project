@@ -17,6 +17,7 @@ import Error from "./Pages/Error";
 import Layout from "./Layouts/Layout";
 import About from "./Pages/About";
 import Cart from "./Pages/Cart";
+import SeeAllProduct from "./Components/SeeAllProduct";
 
 function App() {
   const myRouter = createBrowserRouter(
@@ -29,6 +30,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="/checkout" element={<CheckOut />} /> */}
+          <Route path="/seeAll" element={<SeeAllProduct />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Error />} />
         </Route>

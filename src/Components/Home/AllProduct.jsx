@@ -50,12 +50,12 @@ const AllProduct = () => {
           />
         </div>
         <div className="text-center">
-          <button
+          <a href="/seeAll"
             type="button"
             className="w-[234px] bg-[#DB4444] text-[16px]  mt-[40px] mb-[16px] font-medium font-poppins text-white py-[16px] rounded-md hover:bg-red-600 transition"
           >
             View All Products
-          </button>
+          </a>
         </div>
       </div>
     </>
