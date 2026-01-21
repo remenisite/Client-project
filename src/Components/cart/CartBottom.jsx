@@ -48,9 +48,9 @@ const CartBottom = () => {
             </span>{" "}
           </div>
           <div className="text-center">
-            <button className="w-[260px] text-[16px] font-medium font-poppins bg-[#DB4444] hover:bg-red-700 text-white py-2 px-4 rounded ">
+            <a href="/CheckOut" className="w-[260px] text-[16px] font-medium font-poppins bg-[#DB4444] hover:bg-red-700 text-white py-2 px-4 rounded ">
               Procees to checkout
-            </button>{" "}
+            </a>{" "}
           </div>
         </div>
       </div>

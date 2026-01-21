@@ -67,8 +67,8 @@ const Navbar = () => {
             </div>
             <div className="flex items-center gap-6">
               <div className="text-[32px] text-black cursor-pointer hover:text-[#989898] hover:scale-110 duration-200">
-                <IoMdHeartEmpty />
-              </div>
+               <a href="/wish"><IoMdHeartEmpty />
+</a>               </div>
               <div className="text-[32px] text-black cursor-pointer hover:text-[#989898] hover:scale-110 duration-200 relative">
            <a  href="/Cart"><IoCartOutline /></a>
 

@@ -18,6 +18,7 @@ import About from "./Pages/About";
 import Cart from "./Pages/Cart";
 import SeeAllProduct from "./Pages/SeeAllProduct";
 import Checkout from "./Pages/CheckOut";
+import WishList from "./Pages/WishList";
 
 function App() {
   const myRouter = createBrowserRouter(
@@ -31,6 +32,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/seeAll" element={<SeeAllProduct />} />
+          <Route path="/wish" element={<WishList />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Error />} />
         </Route>
