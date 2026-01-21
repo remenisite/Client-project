@@ -24,7 +24,7 @@ const Navbar = () => {
               <ul className="flex items-center gap-[48px]">
                 <li className=" hover:border-b-2">
                   <Link
-                    to={"/"}
+                    to={"/checkout"}
                     className="text-[16px] font-normal font-poppins text-black"
                   >
                     Home
