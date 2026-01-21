@@ -8,6 +8,9 @@ import "./App.css";
 import Home from "./Pages/Home";
 import LogIn from "./Pages/LogIn";
 import SignUp from "./Pages/SignUp";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 import Contact from "./Pages/Contact";
 import Error from "./Pages/Error";
